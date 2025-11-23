@@ -9,16 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 			squares.forEach(s=>{
 				if(s.id!==targetId){
-					s.classList.add("square_coffee");
-					s.classList.remove("square");
+					s.style.backgroundColor="#6F4E37";
 				}
 			})
 		});
 	
 		square.addEventListener("mouseout", (e)=>{
 			squares.forEach(s=>{
-				s.classList.remove("square_coffee");
-				s.classList.add("square");
+				s.style.backgroundColor="#E6E6FA";
 			});
 		})
 	});

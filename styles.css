@@ -1,9 +1,0 @@
-/*  your css code here. If applicable */
-.square_coffee {
-	width: 50px;
-	height: 50px;
-	display: inline-block;
-	margin: 10px;
-	background-color: rgb(111, 78, 55); /* coffee brown */
-	cursor: pointer;/*coffee */
-}
